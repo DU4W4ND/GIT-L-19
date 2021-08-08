@@ -1,0 +1,26 @@
+/* Contecn firts - mobile firts*/
+    /*General rules*/
+    *{
+        box-sizing: border-box;
+        font-family: 'Segoe UI','calibri', 'Verdana', 'sans-serif';
+    }
+    body,
+    h1,
+    h2,
+    h3
+    {
+        margin : 0;
+    }
+
+
+/* Smail devices - smartphones*/
+
+
+/*medium devices - tablets*/
+
+
+/*Large devices - tablets*/
+
+
+
+/*Extra Large devices - HD Desktop*/
