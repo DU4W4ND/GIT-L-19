@@ -33,6 +33,39 @@
          </ul>
         
      </article>
+     <article>
+         <h3>Staging Area (INDEX)</h3>
+         <p>
+             Es el Area de control de cambios, donnde se realizan las capturas de pantalla  (snapshot) de codigo
+             . Todo contenido que no sea agregado a esta area, sera ignorado por GIT y por tanto 
+             no podra recuperarse en caso de perdida. Una vez agregado, GIT esta verificando constantemente
+              si se realizaron  modificaciones del mismo.  
+         </p>
+         <ul class= "commands" >
+             <li><strong>Git status</strong> Muestra el estado de los archivos comparados con la ultima confirmacion
+            de cambios, los valores que puede devolver son los siguientes
+                <ul>
+                <li><strong>untracked</strong> el archivo aun no fue agregado al INDEX y por lo tanto no se le esta
+                 esta haciendo seguimiento.</li>
+                <li><strong>Tracked</strong> Los cambios fueron agregados al INDEX y estan listos para ser confirmados.</li>
+                <li><strong>modified</strong> EL archivo al que se le esta haciendo seguimiento presenta diferencias con respecto
+                a la ultima modificacion</li>
+                <li><strong>commited</strong> los cambios realizados fueron registrados por medio de una confirmacion</li>
+                    
+                </ul>
+            </li>
+             <li><strong>GIT all &lt;file></strong> Agregamos los archivos seleccionados al INDEX para realizarle seguimiento. </li>
+             <li><strong>GIT blame &lt;file> </strong> identifica a los autores de las modificaciones de un archivo en particular, 
+            siempre y cuando hayan sido confirmadas. </li>
+             <li><strong>git rm --cached &lt;file></strong> Quita del INDEX los cambios almacenados de un archivo en particular, pero 
+                mantiene el mismo en el Working directory
+            </li>
+             <li><strong>git restore --staged &lt;file></strong> Restablece los cambios del index de un archivo en particular, respecto
+            de la ultima confirmacion</li>
+
+         </ul>
+     </article>
+
  </section>
 </body>
 </html>
