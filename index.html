@@ -88,11 +88,23 @@
      <h2>Apuntadores de GIT</h2>
      <article>
          <h3>HEAD</h3>
-         <p>Apuntador movil que permite al usuario navegar dentro del historial de cambios 
+         <p>
+             Apuntador movil que permite al usuario navegar dentro del historial de cambios 
              mediante referencias, que pueden ser, absolutas como los numeros <em>HASH ej: ABC123F;
             </em>; o relativas como <em>HEAD^ o HEAD~1</em> para desplazarse al commit ancestro o 
             anterior de la posicion actual. Este apuntador nos indica donde nos encontramos dentro del 
-            historial de cambios. </p>
+            historial de cambios.
+         </p>
+     </article>
+     <article>
+         <h3>BRANCH</h3>
+         <p>
+             Apuntador dinamico que se ubica en el ultimo commit de una historia en particular,
+             podemos crearlas a  partir de cualquier confirmacion de cambios, pero todas las ramas  creadas comparten 
+             algun punto en comun dentro del mismo arbol. La razón por la que existen es, por un lado, facilitar al usuario
+             la navegacion dentro del historial de cambio y, por el otro, para trabajar paralelamente diferentes cambios, 
+             experimentales o no, sin afectar la historia principal.
+         </p>
      </article>
     
  </section>
